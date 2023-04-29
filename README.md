@@ -8,6 +8,7 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 [Finance_NLP](#finance_nlp)
    * [一. 评测/比赛](#一-评测比赛)
       * [1. 正在进行的评测/比赛：](#1-正在进行的评测比赛)
+         * [1.1 英文: FNP 2023 Shared Tasks](#11-FNP-2023-Shared-Tasks)
       * [2. 已结束的评测/比赛(从2021开始)：](#2-已结束的评测比赛)
          * [2.1 英文：Kaggle-Ubiquant Market Prediction](#21-Kaggle-Ubiquant Market Prediction)
    * [二. 数据集](#二-数据集)
