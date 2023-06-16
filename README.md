@@ -1,38 +1,80 @@
 # finance_benchmark
+
 the benchmark for finance
 
 金融领域 评测/比赛，数据集，论文和预训练模型资源汇总。
 
 Summary of finance evaluations/competitions, datasets, papers and pre-trained models.
 
-[Finance_NLP](#finance_nlp)
-   * [一. 评测/比赛](#一-评测比赛)
-      * [1. 正在进行的评测/比赛：](#1-正在进行的评测比赛)
-         * [1.1 英文: FNP 2023 Shared Tasks](#11-FNP-2023-Shared-Tasks)
-      * [2. 已结束的评测/比赛(从2021开始)：](#2-已结束的评测比赛)
-         * [2.1 英文：Kaggle-Ubiquant Market Prediction](#21-Kaggle-Ubiquant Market Prediction)
-   * [二. 数据集](#二-数据集)
-   * [三. 开源预训练模型](#三-开源预训练模型)
-      * [0. ChatGPT后 Finance NLP大模型](#0-chatgpt后-finance-nlp大模型)
-      * [1. ChatGPT前 Finance NLP大模型](#1-chatgpt前-finance-nlp大模型)
-      * [2. 其他可供在金融领域微调的中文大模型](#2-其他可供在金融领域微调的中文大模型)
-         * [2.1 <a href="https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models#GPT">Awesome List</a>](#21-awesome-list)
-         * [2.2 模型参数规模 0B-5B:](#22-模型参数规模-0b-5b)
-            * [2.2.1 <a href="https://github.com/Langboat/Mengzi">孟子(1B)</a>](#221-孟子1b)
-            * [2.2.2 <a href="https://github.com/THUDM/glm">GLM-2b</a>](#222-glm-2b)
-            * [2.2.3 <a href="https://github.com/TsinghuaAI/CPM-1-Generate">CPM-1(2.6B)</a>](#223-cpm-126b)
-            * [2.2.4 <a href="https://github.com/imcaspar/gpt2-ml">gpt2-ml(1.5B)</a>](#224-gpt2-ml15b)
-            * [2.2.5 <a href="https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha" rel="nofollow">Pangu-Alpha(2.6B)</a>](#225-pangu-alpha26b)
-            * [2.2.6 <a href="https://github.com/THUDM/Chinese-Transformer-XL">Chinese-Transformer-XL(2.9B)</a>](#226-chinese-transformer-xl29b)
-         * [2.3  模型参数规模 5B-10B:](#23--模型参数规模-5b-10b)
-            * [2.3.1 <a href="https://github.com/THUDM/ChatGLM-6B"><strong>ChatGLM-6B</strong></a>](#231-chatglm-6b)
-            * [2.3.2 <a href="https://github.com/tatsu-lab/stanford_alpaca">Stanford Alpaca(7B)</a>](#232-stanford-alpaca7b)
-            * [2.3.2 <a href="https://github.com/THUDM/glm">GLM-10B</a>](#232-glm-10b)
-            * [2.3.3 <a href="https://github.com/PaddlePaddle/ERNIE">ERNIE3.0(10B)</a>](#233-ernie3010b)
-         * [2.4  模型参数规模 10B-100B:](#24--模型参数规模-10b-100b)
-            * [2.4.1 <a href="https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha" rel="nofollow">Pangu-Alpha(13B)</a>](#241-pangu-alpha13b)
-            * [2.4.2 <a href="https://github.com/TsinghuaAI/CPM-2-Finetune">CPM-2(11B)</a>](#242-cpm-211b)
-         * [2.5  模型参数规模 100B--:](#25--模型参数规模-100b--)
-   * [四. 相关论文](#四-相关论文)
-   * [五. 工业级产品解决方案](#五-工业级产品解决方案)
-   * [六. 友情链接](#六-友情链接)
+
+## 1. Evaluation/Competition
+
+### 1.1 Ongoing Contests
+
+#### 1.1.1 FNS-2023 Shared Task Financial Narrative Summarisation
+
+- Source: FNS-2023 Shared Task: "Financial Narrative Summarisation"
+- Introduction: The Financial Narrative Summarisation (FNS 2023) is a shared task designed to highlight the benefits and challenges of applying automated text summarisation to financial narratives. Focused on annual reports from UK, Spanish, and Greek firms, it requires participants to extract information from narrative sections to generate single summaries that reflect the firms' financial trend over the past year. The task utilizes a dataset extracted from 3,863 annual reports, distributed across training, testing, and validation sets. The participants' models need to operate effectively in English, Spanish, and Greek to be successful in the competition.
+- [Official address](http://wp.lancs.ac.uk/cfie/fns2023/)
+
+#### 1.1.2 FinTOC-2023 Shared Task: "Financial Document Structure Extraction"
+
+- Source:  FinTOC-2023 Shared Task: "Financial Document Structure Extraction"
+- Introduction: The Financial Document Structure Extraction task, FinTOC-2023, at the Financial Narrative Processing Workshop (FNP 2023), aims to address the challenge of extracting structural information from a range of financial documents. This task's primary focus is to develop efficient algorithms for Table of Contents (TOC) extraction from diverse financial documents, with the goal of demonstrating the versatility of machine learning in handling this task. This edition introduces a comprehensive dataset with both textual and visual (spatial) annotations, facilitating a more holistic analysis of financial documents. The languages involved include English, French, and Spanish, with a newly introduced Spanish track contributed by the Autonomous University of Madrid.
+- [Official address](http://wp.lancs.ac.uk/cfie/fintoc2023/)
+
+#### 1.1.3 FinCausal-2023 Shared Task: "Financial Document Causality Detection"
+
+- Source: FinCausal-2023 Shared Task: "Financial Document Causality Detection"
+
+- Introduction: The Financial Document Causality Detection Task, a part of the 5th Financial Narrative Processing Workshop (FNP 2023), is designed to identify causality within financial narratives in English and Spanish. The goal is to identify the elements within a sentence or paragraph that relate to the cause and the effect. For the English subtask, the dataset comes from 2019 financial news articles and the Edgar Database, focusing on quantified effects. The Spanish dataset, introduced for the first time, consists of Spanish financial annual reports from 2014 to 2018, seeking to detect all types of causes and effects. The task design varies, with English segments made up of up to three sentences and Spanish ones consisting of full paragraphs.
+- [Official address](http://wp.lancs.ac.uk/cfie/fincausal2023/)
+
+#### 1.1.4 ConvFinQA challenge
+
+- Source: The 1st Workshop on Robust NLP for Finance (RobustFin)
+- Introduction: The ConvFinQA Challenge, launching on April 5th, 2023, seeks to automate the analysis of a large corpus of financial documents through conversational question-answering (QA). The dataset, presented in the ConvFinQA paper, supports this large-scale task. Participants are required to submit their model results on the entire test set via the Codalab leaderboard for final evaluation, following which they must format their papers according to the ACM Conference Proceeding templates and submit them for review. The challenge allows dual submissions and does not enforce an anonymity period. The winners will be recognized as the champion, runner-up, and honorable mention, with awards for these positions.
+- [Official address](https://robustfin.github.io/2023/shared_task)
+
+### 1.2 Ended assessments/competitions
+
+## 2 Datasets
+
+### 2.1 English Datasets
+
+#### 2.1.1 FLUE datasets (26K)
+
+- Source: When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain
+- Introduction: FLUE (Financial Language Understanding Evaluation) is a comprehensive benchmark, designed to foster advancements in the understanding of financial language. This benchmark is constituted from five diverse financial domain-specific datasets. The five tasks include financial sentiment analysis (from two different sources: FPB with 4,845 entries and FiQA SA with 1,173 entries), news headline classification (Headline with 11,412 entries), named entity recognition (NER with 1,466 entries), structure boundary detection (FinSBD3 with 756 entries), and question answering (FiQA QA with 6,640 entries). Collectively, these datasets comprise a total of 26,292 entries, providing a heterogeneous and substantial corpus for the development and evaluation of financial language understanding systems.
+- [Official address](https://salt-nlp.github.io/FLANG/)
+
+### 2.2 Chinese Datasets
+
+### 2.3 Knowledge and information sources
+
+## 3 Pre-trained model
+
+### 3.1 after GPT
+
+#### 3.1.1 BloombergGPT
+
+- Source: BloombergGPT: A Large Language Model for Finance
+- Introduction: Bloomberg has unveiled BloombergGPT, a large-scale generative artificial intelligence model specifically trained on a diverse set of financial data to enhance various natural language processing (NLP) tasks within the finance sector. Built by integrating financial data with general-purpose datasets, the model excels at financial NLP tasks such as sentiment analysis, named entity recognition, news classification, and question answering, without compromising performance on general language model benchmarks. The model was trained on a massive corpus of over 700 billion tokens, derived from a combination of a 363 billion token dataset from Bloomberg's extensive archive of financial documents and a 345 billion token public dataset. Remarkably, BloombergGPT outperforms similarly-sized open models on financial NLP tasks significantly, while maintaining or surpassing performance on general-purpose NLP benchmarks.
+- Project: N/A (Not published!)
+
+#### 3.1.2 Xuanyuan
+
+- Source: XuanYuan: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
+- Introduction: XuanYuan, the first domestically developed and open-sourced Chinese chat model with hundreds of billions of parameters, has been specifically optimized for the Chinese financial sector. Building upon BLOOM-176B, XuanYuan was pre-trained and fine-tuned for both the general and financial Chinese domains, exhibiting competence in handling general inquiries as well as financial-related questions. The model, available for download on Huggingface, outperforms the four main open-source models in the financial sector with a win rate of 63.33% in 150 answers. Despite its impressive financial domain performance, XuanYuan also excels in general capabilities, matching or exceeding the performance of ChatGPT on 71% of diversified questions in a general test set. Developed to spur academic research, technology exploration, and personal learning, the open-source XuanYuan serves as a powerful tool for advancing dialogue systems and financial technology.
+- [Project](https://github.com/Duxiaoman-DI/XuanYuan)
+
+### 3.2 before GPT
+
+### 3.3 General Domain
+
+## 4 Related Papers
+
+
+
+
+
