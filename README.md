@@ -50,6 +50,23 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 
 ### 2.2 Chinese Datasets
 
+#### 2.2.1 BQ Corpus（4.2M）
+
+- Sourse：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
+- Introduction：The issue matching data for the banking and finance sector, which includes issue pairs drawn from a year's worth of online banking system logs, is the largest issue matching data available for the banking sector.
+
+#### 2.2.2 CCKS2022金融领域FEW-SHOT事件抽取数据集
+
+- Sourse：The CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/)
+- Introduction：This dataset is derived from the CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/), provided by Ant Group and Institute of Automation, Chinese Academy of Sciences.The text corpus is drawn from public news and reports on the Internet. Given a schema of M event types and their elements, the annotated data of N (N<M) of these event types are given in the training data, and the M event types and their elements are extracted from the test set.
+
+#### 2.2.3 CCKS2019金融领域篇章级事件主体抽取数据集
+
+-Sourse：CCKS2019 "Chapter-level event subject extraction for the financial sector" academic assessment task（https://www.biendata.xyz/competition/ccks_2019_4/）
+-Introduction：This dataset is derived from the CCKS2019 "Chapter-level event subject extraction for the financial domain" academic evaluation task (https://www.biendata.xyz/competition/ccks_2019_4/), jointly provided by Ant Group and the Institute of Automation, Chinese Academy of Sciences."Event identification" is one of the most important tasks in the field of public opinion monitoring and in the financial sector, where "events" are an important reference for investment analysis and asset management decisions. The complexity of "event identification" lies in the determination of the type of event and the subject of the event.We refer to the subject of a particular type of event as the subject of the event, and in this task the scope of the subject of the event is limited to: companies and institutions. The range of event types is defined as 22 types: problems with products, executive reduction, violations of law, etc.
+
+#### 2.2.4 
+
 ### 2.3 Knowledge and information sources
 
 ## 3 Pre-trained model
