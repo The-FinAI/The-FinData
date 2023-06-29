@@ -52,46 +52,53 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 
 #### 2.2.1 BQ Corpus（4.2M）
 
-- Sourse：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
-- Introduction：The issue matching data for the banking and finance sector, which includes issue pairs drawn from a year's worth of online banking system logs, is the largest issue matching data available for the banking sector.
-- BQ Corpus![image](https://github.com/YY0649/finance_benchmark/assets/91943053/63b95f21-9518-4a96-a8ba-bd3ae91c038b)
+- Sourse：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific Chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
+- Introduction： The issue-matching data for the banking and finance sector, which includes issue pairs drawn from a year's worth of online banking system logs, is the largest issue-matching data available for the banking sector.
+- [Official address](https://www.luge.ai/#/luge/dataDetail?id=15)
 
 
 #### 2.2.2 CCKS2022金融领域FEW-SHOT事件抽取数据集
 
-- Sourse：The CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/)
-- Introduction：This dataset is derived from the CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/), provided by Ant Group and Institute of Automation, Chinese Academy of Sciences.The text corpus is drawn from public news and reports on the Internet. Given a schema of M event types and their elements, the annotated data of N (N<M) of these event types are given in the training data, and the M event types and their elements are extracted from the test set.
-- CCKS2022![image](https://github.com/YY0649/finance_benchmark/assets/91943053/04e02d44-15a0-4c42-904b-ae648559d392)
+- Source： The CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/)
+- Introduction: This dataset is derived from the CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/), provided by Ant Group and Institute of Automation, Chinese Academy of Sciences. The text corpus is drawn from public news and reports on the Internet. Given a schema of M event types and their elements, the annotated data of N (N<M) of these event types are given in the training data, and the M event types and their elements are extracted from the test set.
+- [Official address]((https://tianchi.aliyun.com/dataset/136800))
 
 
 #### 2.2.3 CCKS2019金融领域篇章级事件主体抽取数据集
 
-- Sourse：CCKS2019 "Chapter-level event subject extraction for the financial sector" academic assessment task（https://www.biendata.xyz/competition/ccks_2019_4/）
-- Introduction：This dataset is derived from the CCKS2019 "Chapter-level event subject extraction for the financial domain" academic evaluation task (https://www.biendata.xyz/competition/ccks_2019_4/), jointly provided by Ant Group and the Institute of Automation, Chinese Academy of Sciences."Event identification" is one of the most important tasks in the field of public opinion monitoring and in the financial sector, where "events" are an important reference for investment analysis and asset management decisions. The complexity of "event identification" lies in the determination of the type of event and the subject of the event.We refer to the subject of a particular type of event as the subject of the event, and in this task the scope of the subject of the event is limited to: companies and institutions. The range of event types is defined as 22 types: problems with products, executive reduction, violations of law, etc.
+- Source： CCKS2019 "Chapter-level event subject extraction for the financial sector" academic assessment task（https://www.biendata.xyz/competition/ccks_2019_4/）
+- Introduction： This dataset is derived from the CCKS2019 "Chapter-level event subject extraction for the financial domain" academic evaluation task (https://www.biendata.xyz/competition/ccks_2019_4/), jointly provided by Ant Group and the Institute of Automation, Chinese Academy of Sciences."Event identification" is one of the most important tasks in the field of public opinion monitoring and in the financial sector, where "events" are an important reference for investment analysis and asset management decisions. The complexity of "event identification" lies in the determination of the type of event and the subject of the event. We refer to the subject of a particular type of event as the subject of the event, and in this task, the scope of the subject of the event is limited to: companies and institutions. The range of event types is defined as 22 types: problems with products, executive reduction, violations of law, etc.
+- [Official address](https://tianchi.aliyun.com/dataset/111237)
 
 #### 2.2.4 FinNL
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction： a financial news classification dataset.Given financial news articles, the model needs to classify them into up to 15 possible categories, with evaluation measured by F1-Score. The training set contains 8,000 articles, the validation set contains 1,000 articles, and the test set contains 1,000 articles.
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： A financial news classification dataset. Given financial news articles, the model needs to classify them into up to 15 possible categories, with evaluation measured by F1-Score. The training set contains 8,000 articles, the validation set contains 1,000 articles, and the test set contains 1,000 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 #### 2.2.6 FinNA
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction：a financial news summarization dataset. Given financial news articles, the model needs to generate a summary, with evaluation measured by Rouge (Lin, 2004). The training set contains 24,000 articles, the validation set contains 3,000 articles, and the test set contains 3,000 articles.
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： A financial news summarization dataset. Given financial news articles, the model needs to generate a summary, with evaluation measured by Rouge (Lin, 2004). The training set contains 24,000 articles, the validation set contains 3,000 articles, and the test set contains 3,000 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 #### 2.2.7 FinRE
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction：a financial news relation extraction dataset. Given financial news articles and head-tail entity pairs, the model needs to classify the relation between entity pairs into up to 44 categories, including the null relation, with evaluation measured by F1-Score. The training set contains 7,454 articles, the validation set contains 1,489 articles, and the test set contains 3,727 articles
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： A financial news relation extraction dataset. Given financial news articles and head-tail entity pairs, the model needs to classify the relation between entity pairs into up to 44 categories, including the null relation, with evaluation measured by F1-Score. The training set contains 7,454 articles, the validation set contains 1,489 articles, and the test set contains 3,727 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 #### 2.2.8 FinFE
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction： a financial social media text sentiment classification dataset. Given financial social media text, the model needs to classify the sentiment of the text into negative-neutralpositive categories, with evaluation measured by accuracy. The training set contains 8,000 articles, the validation set contains 1,000 articles, and the test set contains 1,000 articles.
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： A financial social media text sentiment classification dataset. Given financial social media text, the model needs to classify the sentiment of the text into negative-neutralpositive categories, with evaluation measured by accuracy. The training set contains 8,000 articles, the validation set contains 1,000 articles, and the test set contains 1,000 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 #### 2.2.9 FinQA
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction：a financial news announcement event question-answering dataset, derived from the DuEE-fin (Han et al., 2022) dataset. Given financial news or announcement text and a question related to an event mentioned in the text, the model needs to generate an answer to the question based on the text, with evaluation measured by F1-Score. The training set contains 16,000 articles, the validation set contains 2,000 articles, and the test set contains 2,000 articles.
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： A financial news announcement event question-answering dataset, derived from the DuEE-fin (Han et al., 2022) dataset. Given financial news or announcement text and a question related to an event mentioned in the text, the model needs to generate an answer to the question based on the text, with evaluation measured by F1-Score. The training set contains 16,000 articles, the validation set contains 2,000 articles, and the test set contains 2,000 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 #### 2.2.10 FinNSP
-- Sourse：https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish
-- Introduction：a financial negative news and its subject determination dataset. Given financial news or social media text and entities mentioned in the text, the model needs to determine if the text contains negative news related to any entity and identify which entity is the subject of the negative news, with evaluation measured by F1-Score. The training set contains 4,800 articles, the validation set contains 600 articles, and the test set contains 600 articles.
+- Source：BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+- Introduction： Financial negative news and its subject determination dataset. Given financial news or social media text and entities mentioned in the text, the model needs to determine if the text contains negative news related to any entity and identify which entity is the subject of the negative news, with evaluation measured by F1-Score. The training set contains 4,800 articles, the validation set contains 600 articles, and the test set contains 600 articles.
+- [Official address](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main/FinCUGE_Publish)
 
 ### 2.3 Knowledge and information sources
 
