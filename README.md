@@ -54,11 +54,15 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 
 - Sourse：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
 - Introduction：The issue matching data for the banking and finance sector, which includes issue pairs drawn from a year's worth of online banking system logs, is the largest issue matching data available for the banking sector.
+- BQ Corpus![image](https://github.com/YY0649/finance_benchmark/assets/91943053/63b95f21-9518-4a96-a8ba-bd3ae91c038b)
+
 
 #### 2.2.2 CCKS2022金融领域FEW-SHOT事件抽取数据集
 
 - Sourse：The CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/)
 - Introduction：This dataset is derived from the CCKS2022 "FEW-SHOT Event Extraction for the Financial Sector" academic evaluation task (https://www.biendata.xyz/competition/ccks2022_eventext/), provided by Ant Group and Institute of Automation, Chinese Academy of Sciences.The text corpus is drawn from public news and reports on the Internet. Given a schema of M event types and their elements, the annotated data of N (N<M) of these event types are given in the training data, and the M event types and their elements are extracted from the test set.
+- CCKS2022![image](https://github.com/YY0649/finance_benchmark/assets/91943053/04e02d44-15a0-4c42-904b-ae648559d392)
+
 
 #### 2.2.3 CCKS2019金融领域篇章级事件主体抽取数据集
 
