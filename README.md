@@ -52,7 +52,7 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 
 #### 2.2.1 BQ Corpus（4.2M）
 
-- Sourse：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific Chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
+- Source：Chen J, Chen Q, Liu X, et al. The bq corpus: A large-scale domain-specific Chinese corpus for sentence semantic equivalence identification[C]//Proceedings of the 2018 conference on empirical methods in natural language processing. 2018: 4946-4951.
 - Introduction： The issue-matching data for the banking and finance sector, which includes issue pairs drawn from a year's worth of online banking system logs, is the most extensive set of issue-matching data available for the banking sector.
 - [Official address](https://www.luge.ai/#/luge/dataDetail?id=15)
 
