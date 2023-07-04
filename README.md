@@ -149,9 +149,11 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 
 ### 1.3 Spanish
 
-- FNS-2022 Shared Task: "Financial Narrative Summarisation", [Official address](http://wp.lancs.ac.uk/cfie/fns2023/)
-- FNS-2022 Shared Task: "Financial Narrative Summarisation", [Official address](http://wp.lancs.ac.uk/cfie/fns2022/)
-- FinTOC-2022 Shared Task: "Financial Document Structure Extraction", [Official address](http://wp.lancs.ac.uk/cfie/fintoc2022/)
+- FNS-2023 Shared Task: "Financial Narrative Summarisation"             [Official address](http://wp.lancs.ac.uk/cfie/fns2023/)
+  ![image](https://github.com/chancefocus/finance_benchmark/assets/76273145/2d6063ad-8e5d-442c-a4e1-b41720e3edd6)
+- FNS-2022 Shared Task: "Financial Narrative Summarisation"             [Official address](http://wp.lancs.ac.uk/cfie/fns2022/)
+  ![image](https://github.com/chancefocus/finance_benchmark/assets/76273145/cea01fe2-87ae-4595-a0fb-5f2a84a314b2)
+- FinTOC-2022 Shared Task: "Financial Document Structure Extraction"    [Official address](http://wp.lancs.ac.uk/cfie/fintoc2022/)
 
 
 ## 2 Datasets
