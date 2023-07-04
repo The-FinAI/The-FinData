@@ -147,7 +147,13 @@ Summary of finance evaluations/competitions, datasets, papers and pre-trained mo
 - Introduction: The workshop focuses on the use of NLP, ML, and CL methods for financial text mining and FNP. There is a growing interest in automatic and computer-aided approaches for extracting, summarizing, and analyzing financial data. The workshop aims to develop a better understanding of financial disclosure quality and factors influencing the quality of information disclosed to investors. The workshop encourages efforts to build resources and tools to advance research on financial narrative processing due to the limited availability of publicly available datasets and high cost and limited access to content providers. The workshop aims to advance research on lexical properties and narrative aspects of corporate disclosures, including glossy annual reports, financial documents, press releases, conference calls, media articles, and social media. The motivation is to clarify complex accounting methods, provide information on corporate strategy and social responsibility, and provide forward-looking information for investors, while also detecting potential obfuscation and manipulation of accounting results.
 - [Official address](http://wp.lancs.ac.uk/cfie/fnp2018/)
 
-  
+### 1.3 Spanish
+
+- FNS-2022 Shared Task: "Financial Narrative Summarisation", [Official address](http://wp.lancs.ac.uk/cfie/fns2023/)
+- FNS-2022 Shared Task: "Financial Narrative Summarisation", [Official address](http://wp.lancs.ac.uk/cfie/fns2022/)
+- FinTOC-2022 Shared Task: "Financial Document Structure Extraction", [Official address](http://wp.lancs.ac.uk/cfie/fintoc2022/)
+
+
 ## 2 Datasets
 
 ### 2.1 English Datasets
